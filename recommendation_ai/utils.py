@@ -7,7 +7,7 @@ def get_fake_profiles(count=10):
         profile = fake.profile()
         data = {
             'username': profile['username'],
-            'email': profile['email'],
+            'email': profile['mail'],
             'is_active': True
         }
         if 'name' in profile:
