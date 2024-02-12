@@ -1,4 +1,4 @@
-from django.core.management.base import BaseCommand, CommandParser
+from django.core.management.base import BaseCommand
 from recommendation_ai import utils
 from django.contrib.auth import get_user_model
 
